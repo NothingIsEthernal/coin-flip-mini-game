@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coin Flip Mini Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🪙 Coin Flip Game</h1>
+        
+        <div class="game-info">
+            <div class="stat">
+                <span class="label">Wins:</span>
+                <span class="value" id="wins">0</span>
+            </div>
+            <div class="stat">
+                <span class="label">Losses:</span>
+                <span class="value" id="losses">0</span>
+            </div>
+            <div class="stat">
+                <span class="label">Total:</span>
+                <span class="value" id="total">0</span>
+            </div>
+        </div>
+
+        <div class="coin-container">
+            <div class="coin" id="coin">
+                <div class="coin-face heads">H</div>
+                <div class="coin-face tails">T</div>
+            </div>
+        </div>
+
+        <div class="result" id="result"></div>
+
+        <div class="controls">
+            <button class="btn" id="headsBtn">Heads</button>
+            <button class="btn" id="tailsBtn">Tails</button>
+            <button class="btn reset-btn" id="resetBtn">Reset</button>
+        </div>
+
+        <div class="instruction">
+            <p>Choose Heads or Tails, then flip the coin!</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
